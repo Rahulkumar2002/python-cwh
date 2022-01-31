@@ -93,10 +93,10 @@
 #         for j in range(1, 11):
 #             f.write(f"{i} * {j} = {i * j} \n")
 
-# WAP to update "Donkey" with "########" in same file .
+# # WAP to update "Donkey" with "########" in same file .
 
-with open("donkey.txt") as f:
-    data = f.read()
-    data = data.replace("donkey", "######")
-with open("donkey.txt", "w") as f:
-    f.write(data)
+# with open("donkey.txt") as f:
+#     data = f.read()
+#     data = data.replace("donkey", "######")
+# with open("donkey.txt", "w") as f:
+#     f.write(data)
